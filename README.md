@@ -4,13 +4,14 @@
 python autograde.py
 ```
 
-## Excercise
 Submit your solutions via the assignment dropbox on blackboard, Week 3. Please make
 sure to submit your solutions by next Monday. If an exercise requires you to write C
 code, then create a new C file (i.e. do not combine exercises into a single C file).  
 
 Note: the **Challenge** exercises are optional.
 
+
+## Excercise
 
 1. What is the output of the following program?    
 ```c
