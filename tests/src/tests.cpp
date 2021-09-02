@@ -3,7 +3,7 @@
 
 extern "C"
 {
-#include "fib.h"
+#include "countfib.h"
 //#include "lcrng.h"
 //#include "sqrt.h"
 //#include "cubes.h" nothing to check, excercise needs a change
@@ -15,7 +15,7 @@ extern "C"
 
 TEST_CASE("fib")
 {
-    REQUIRE(fib(7) == {0,1,1,2,3,5,8});
+    REQUIRE(countfib(0,7) == 7);
 }
 
 //TEST_CASE("lcrng")
