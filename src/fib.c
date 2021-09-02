@@ -1,5 +1,5 @@
 #include "fib.h"
 int fib(int a, int b)
 {
- return 0;
+  return 0;
 }
