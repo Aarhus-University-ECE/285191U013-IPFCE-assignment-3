@@ -4,8 +4,8 @@
 extern "C"
 {
 #include "fib.h"
-#include "lcrng.h"
-#include "sqrt.h"
+//#include "lcrng.h"
+//#include "sqrt.h"
 //#include "cubes.h" nothing to check, excercise needs a change
 // same for 2.5 
 // Continue with 2.6
