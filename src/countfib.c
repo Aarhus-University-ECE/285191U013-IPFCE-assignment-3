@@ -1,5 +1,5 @@
 #include "countfib.h"
-int fib(int a, int b)
+int countfib(int a, int b)
 {
   return 0;
 }
