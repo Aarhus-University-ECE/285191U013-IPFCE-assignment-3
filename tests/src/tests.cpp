@@ -15,7 +15,7 @@ extern "C"
 
 TEST_CASE("fib")
 {
-    REQUIRE(countfib(10,100) == 7);
+    REQUIRE(countfib(10,100) == 5);
 }
 
 //TEST_CASE("lcrng")
