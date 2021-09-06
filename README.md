@@ -1,7 +1,13 @@
 # IPFCE-Week-3-Development and analysis of correct programs
 
+Pre-requisits: 
+- Visual Studio and Visual Studio Code (VSC)
+- CMake 
+- ..
+
+Within VSC press ctrl+p to open command prompt. Type
 ```bash
-python autograde.py
+cmake 
 ```
 
 Submit your solutions via the assignment on brightspace, Week 3. Please make
