@@ -7,7 +7,12 @@ Pre-requisits:
 
 Within VSC press ctrl+p to open command prompt. Type
 ```bash
-cmake 
+cmake configure 
+cmake build
+```
+Afterwards to run tests type 
+```bash
+ctest
 ```
 
 Submit your solutions via the assignment on brightspace, Week 3. Please make
