@@ -5,10 +5,10 @@ extern "C"
 {
 #include "countfib.h"
 #include "sum.h"
-// #include "mod.h"
-//#include "cubes.h" nothing to check, excercise needs a change
-// same for 2.5 
-// Continue with 2.6
+#include "mod.h"
+#include "gprime.h"
+#include "numberofparis.h"
+
 }
 
 // See Catch2's documentation: https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#scaling-up
@@ -29,15 +29,15 @@ TEST_CASE("sum")
     assert(sum(n) == (n * (n + 1) * (2 * n + 1)) / 6);
 }
 
-// TEST_CASE("mod")
-// {   
-//     int q, r, m, n;
-//     // First test case
-//     q, r, m, n = mod(2,3);
-//     assert (q == m / n);
-//     assert (r == m % n);
-//     // Second test case
-//     q, r, m, n = mod(3,2);
-//     assert (q == m / n);
-//     assert (r == m % n);
-// }
+TEST_CASE("mod")
+{   
+    int q, r, m, n;
+    // First test case
+    q, r, m, n = mod(2,3);
+    assert (q == m / n);
+    assert (r == m % n);
+    // Second test case
+    q, r, m, n = mod(3,2);
+    assert (q == m / n);
+    assert (r == m % n);
+}
