@@ -8,8 +8,15 @@ Pre-requisits:
 Within VSC press ctrl+p to open command prompt. Type
 ```bash
 cmake configure 
+```
+This will configure your build directory. Usually required one-time only.
+
+Then use 
+```bash
 cmake build
 ```
+to build the files. When you made changes you need to "re-build" to include the changes.
+
 Afterwards to run tests type 
 ```bash
 ctest
