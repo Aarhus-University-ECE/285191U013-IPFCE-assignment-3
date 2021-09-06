@@ -1,5 +1,7 @@
 #include "countfib.h"
 int countfib(long int a, long int b)
 {
-  return 0;
+  int counter;
+  // add body here ...
+  return counter;
 }
