@@ -16,9 +16,11 @@ TEST_CASE("doubleSum")
 
 TEST_CASE("numOfFib")
 {
-	REQUIRE(numOfFib(10,100) == 5);
-	REQUIRE(numOfFib(1300,8000) == 4);
-	REQUIRE(numOfFib(0,0) == 0);
+    // NOTE: range is [a,b]
+	REQUIRE(numOfFib(10,100) == 5); // 13, 21, 34, 55, 89
+	REQUIRE(numOfFib(20,233) == 6); // 21, 34, 55, 89, 144, 233
+	REQUIRE(numOfFib(1300,8000) == 4); // 1597, 2584, 4181, 6765
+	REQUIRE(numOfFib(1,2) == 2); // 1,2 (the 2 seeds)
 }
 
 // TEST_CASE("sum")
