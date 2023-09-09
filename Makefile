@@ -9,7 +9,7 @@ build: configure
 	cmake --build build --target all --parallel=$(shell nproc)
 
 test: build
-	./build/tests
+	./build/tests_
 
 clean:
 	rm -rf build

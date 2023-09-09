@@ -9,8 +9,7 @@ extern "C" {
 TEST_CASE("doubleSum")
 {
     for (int n = 0; n < 20; ++n) {
-		const int expected = (n * (n + 1) * (2 * n + 1)) / 6;
-		REQUIRE(doubleSum(n) == expected);
+		REQUIRE(doubleSum(n) == (n * (n + 1) * (2 * n + 1)) / 6);
 	}
 }
 
