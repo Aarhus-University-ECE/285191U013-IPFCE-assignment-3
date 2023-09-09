@@ -1,5 +1,4 @@
-static int mod(int m, int n)
-{
+int mod(int m, int n) {
   int q = 0;
   int r = m;
   int b = n;
