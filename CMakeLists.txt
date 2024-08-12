@@ -11,7 +11,7 @@ Include(FetchContent)
 FetchContent_Declare(
 		Catch2
 		GIT_REPOSITORY https://github.com/catchorg/Catch2.git
-		GIT_TAG        v3.0.1 # or a later release
+		GIT_TAG        v3.6.0 # Newest version as of 12-08-2024
 )
 
 FetchContent_MakeAvailable(Catch2)
